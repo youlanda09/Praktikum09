@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<head>
+    <title>Calculator-2472058</title>
+    <style>
+        
+    </style>
+</head>
+<body>
+    <div class="jumlah">
+        <h4><b><u>Penjumlahan</u></b></h4>
+        <input type="button" value="Refresh" onclick="alert('clicked')"><br>
+        <input type="text" id="btn1">+<input type="text" id="btn2">=<input type="text" id="btn3"><input type="button" value="Cek Hasil" onclick="cektambah()">
+    
+    </div>
+    <div class="kurang">
+        <h4><b><u>Pengurangan</u></b></h4>
+        <input type="button" value="Refresh" onclick="refresh()"><br>
+        <input type="text" id="btn1">-<input type="text" id="btn1">=<input type="text" id="btn1"><input type="button" value="Cek Hasil" onclick="cekkurang()"><br>
+    
+    </div>
+    <div class="nilai">
+        <h4><b><u>Nilai Bilangan</u></b></h4>
+        <input type="button" value="Refresh" onclick="alert('clicked')"><br>
+        <input type="text" id="btn1">=<input type="text" id="btn1">+<input type="text" id="btn1"><input type="button" value="Cek Hasil" onclick="ceknilai()"><br>
+    
+    </div>
+
+    <script>
+            let angka1=0,angka2=0;
+            function cektambah(){
+                angka1=Mathfloor(Math.random()*100);
+                angka2=Mathfloor(Math.random()*100);
+                angka3=Mathfloor(Math.random()*100);
+
+                document.getElementById("btn1").value=angka1
+                document.getElementById("btn2").value=angka2
+                document.getElementById("btn3").value=angka3
+
+
+                if(angka1 + angka2 = angka3){
+                    document.write("Jawaban Benar");
+                }
+            }
+    </script>
+</body>
+</html>
