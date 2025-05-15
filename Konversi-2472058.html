@@ -1,0 +1,53 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Konversi Mata Uang-2472058</title>
+    <link rel="stylesheet" href="matauang.css">
+    <script src="Uang.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <div class="judul"><h3>Konverter Mata Uang</h3></div>
+        <div class="JUang">
+            <span>Jumlah Uang</span> <br>
+            <input type="number" id="Juang" name="JumlahUang">
+        </div>
+        <div class="matauang">
+            <span>Dari Mata Uang</span> <br>
+            <select name="MataUang" id="MataUang" class="dariUang">
+                <option value="USD">USD - Dollar Amerika</option>
+                <option value="IDR">IDR - Rupiah Indonesia</option>
+                <option value="EUR">EUR - Euro</option>
+                <option value="JPY">JPY - Yen Jepang</option>
+                <option value="GBP">GBP - Pound Inggris</option>
+                <option value="SGD">SGD - Dollar Singapura</option>
+                <option value="AUD">AUD - Dollar Australlia</option>
+            </select>
+            
+        </div>
+        <div>
+            <button class="tukar">Tukar Mata Uang</button>
+        </div>
+        <div class="matauang">
+            <span>Ke Mata Uang</span> <br>
+            <select name="MataUang" id="MataUang" class="tukarUang">
+                <option value="IDR">IDR - Rupiah Indonesia</option>
+                <option value="USD">USD - Dollar Amerika</option>
+                <option value="EUR">EUR - Euro</option>
+                <option value="JPY">JPY - Yen Jepang</option>
+                <option value="GBP">GBP - Pound Inggris</option>
+                <option value="SGD">SGD - Dollar Singapura</option>
+                <option value="AUD">AUD - Dollar Australlia</option>
+            </select>
+        </div>
+        <div >
+            <button class="konversi">Konversi</button>
+        </div>
+        <div class="hasil"></div>
+    </div>
+</body>
+</html>

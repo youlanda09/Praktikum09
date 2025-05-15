@@ -1,0 +1,59 @@
+body{
+    background-color: antiquewhite;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: white;
+    width: 400px;
+    height: 70vh;
+    margin: auto;
+    margin-top: 60px;
+    border-radius: 20px;
+}
+h3{
+    margin-bottom: 0px;
+}
+.JUang{
+    text-align: center;
+}
+.matauang{
+    text-align: center;
+}
+input{
+    width: 300px;
+    border: 1px solid black;
+    border-radius: 5px;
+    height: 25px;
+}
+span{
+    color: #333;
+}
+#MataUang{
+    width: 300px;
+    border: 1px solid black;
+    border-radius: 5px;
+    height: 30px;
+    padding-left: 10px;
+}
+button{
+    width: 300px;
+    height: 30px;
+    color:  white;
+    background-color: #2575fc;
+    border: 1px solid #2575fc;
+    border-radius: 5px;
+}
+.konversi{
+    font-weight: 900;
+}
+.tukar{
+    width: 150px;
+    font-weight: 600;
+}
+.hasil{
+    font-weight: 600;
+    color: #2575fc;
+}

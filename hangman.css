@@ -1,0 +1,35 @@
+body{
+    background-color: lightblue;
+    font-family: Arial;
+}
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 150px;
+}
+.kiri{
+    text-align: center;
+}
+.kanan{
+    text-align: center;
+    width: 500px;
+}
+span{
+    letter-spacing: 5px;
+}
+input{
+    width: 25px;
+    height: 30px;
+    text-align: center;
+}
+button{
+    width: 40px;
+    height: 35px;
+    padding: 0px;
+}
+.isi_{
+    letter-spacing: 20px;
+    font-weight: 600;
+    font-size: 40px;
+}
